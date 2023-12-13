@@ -1,0 +1,22 @@
+.container1{
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    margin: 20px 20px;
+    padding: 20px;
+    
+}
+.box1{
+    width: 250px;
+    height: 250px;
+    background-color: orangered;
+    padding: 20px;
+    margin: 20px;
+    transition: 1s;
+}
+.box1:hover{
+    transform: scale(1.2);
+}
